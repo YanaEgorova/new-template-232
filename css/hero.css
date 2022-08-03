@@ -145,8 +145,8 @@
         display: block;
         width: 50%;
         height: 70rem;
-        object-fit: cover;
         margin-right: 10rem;
+        background-color: var(--first-brand-color);
         border: 2rem solid var(--sub-text-color);
     }
     .policy__box {
