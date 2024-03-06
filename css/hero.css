@@ -12,7 +12,9 @@
 .hero--svg {
     display: none;
 }
-
+.hero__img {
+    display: none;
+}
 
 
 
@@ -115,7 +117,7 @@
 
 @media screen and (min-width: 1440px)  {
     .hero {
-        padding: 25rem 0;
+        padding: 5rem 0 ;
         position: relative;
     }
     .hero--svg {
@@ -148,6 +150,21 @@
     .contacts__svg {
         margin: 0 2rem 0 0;
     }
+    .hero .title {
+        max-width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+       .hero .text {
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__img {
+    display: block;
+    max-width: 60rem;
+    margin: 0 auto 2rem;
+}
 
 
 
